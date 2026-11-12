@@ -1,0 +1,9 @@
+name=cite_gnn
+start=2026-11-11 18:08:37 CST
+end=2026-11-11 18:09:07 CST
+start_epoch=1794391717.555535433
+end_epoch=1794391747.398293069
+exit=0
+latency_sec=29.843
+out_bytes=2648
+err_bytes=359

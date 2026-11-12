@@ -1,0 +1,9 @@
+name=cite_prove
+start=2026-11-11 19:16:59 CST
+end=2026-11-11 19:18:18 CST
+start_epoch=1794395819.587403654
+end_epoch=1794395898.994851463
+exit=0
+latency_sec=79.407
+out_bytes=4279
+err_bytes=359

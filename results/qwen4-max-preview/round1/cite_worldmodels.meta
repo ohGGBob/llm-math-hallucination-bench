@@ -1,0 +1,9 @@
+name=cite_worldmodels
+start=2026-11-11 18:07:20 CST
+end=2026-11-11 18:08:31 CST
+start_epoch=1794391640.247508179
+end_epoch=1794391711.665832563
+exit=0
+latency_sec=71.418
+out_bytes=3889
+err_bytes=359

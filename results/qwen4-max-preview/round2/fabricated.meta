@@ -1,0 +1,9 @@
+name=fabricated
+start=2026-11-11 19:16:59 CST
+end=2026-11-11 19:18:47 CST
+start_epoch=1794395819.590594485
+end_epoch=1794395927.669975047
+exit=0
+latency_sec=108.079
+out_bytes=7593
+err_bytes=359

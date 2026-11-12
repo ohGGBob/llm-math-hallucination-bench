@@ -1,0 +1,9 @@
+name=math2
+start=2026-11-11 18:03:45 CST
+end=2026-11-11 18:04:53 CST
+start_epoch=1794391425.836155001
+end_epoch=1794391493.223570600
+exit=0
+latency_sec=67.387
+out_bytes=2529
+err_bytes=359

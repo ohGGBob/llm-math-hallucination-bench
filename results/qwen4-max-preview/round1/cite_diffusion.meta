@@ -1,0 +1,9 @@
+name=cite_diffusion
+start=2026-11-11 18:07:20 CST
+end=2026-11-11 18:07:53 CST
+start_epoch=1794391640.136121783
+end_epoch=1794391673.194830100
+exit=0
+latency_sec=33.059
+out_bytes=2749
+err_bytes=359

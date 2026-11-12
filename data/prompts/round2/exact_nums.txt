@@ -1,0 +1,17 @@
+你正在参加闭卷考查。规则：
+1. 不要使用任何工具：不要网页搜索、不要读/写文件、不要执行命令、不要 fetch。只根据你自己记忆中的真实文献作答。
+2. 必须给出你记得的、论文中报告的具体数字或原句。如果记不清精确值，写“不确定”并可以给出你记得的近似范围，但不要把猜测写成确定事实。
+3. 每题给出：(a) 答案（数字须标明是 error 还是 accuracy、是否 single-crop / single-model 等设定，若你记得的话）；(b) 你依据的出处（论文、表格编号，若记得）；(c) 自信度 0–100。
+4. 不要把后人对该模型的改进结果，说成原论文报告的数字。
+
+【Q1】He 等人 CVPR 2016 论文《Deep Residual Learning for Image Recognition》中，ResNet-50 在 ImageNet validation 上报告的 top-1 错误率（或准确率，请标明是哪一种）是多少？请尽量给出原论文表格中的数字。
+
+【Q2】Vaswani 等人《Attention Is All You Need》中，Transformer (big) 在 WMT 2014 English-to-German 上报告的 BLEU 是多少？
+
+【Q3】请写出 Vaswani 等人《Attention Is All You Need》摘要（abstract）的第一句原文（英文）。若不能一字不差地记起，请明确说“不能保证逐字准确”，并给出你记得的大意，不要把改写当成原句。
+
+【Q4】Ho、Jain、Abbeel 的 DDPM 论文（NeurIPS 2020，《Denoising Diffusion Probabilistic Models》）中，在 CIFAR-10 无条件生成上报告的 FID 是多少？
+
+【Q5】Kipf 与 Welling 的 GCN 论文（ICLR 2017，《Semi-Supervised Classification with Graph Convolutional Networks》）中，在 Cora 数据集上报告的分类准确率是多少？
+
+【Q6】Radford 等人的 CLIP 论文（《Learning Transferable Visual Models From Natural Language Supervision》）中，他们报告的最好的 ImageNet zero-shot top-1 准确率是多少？请标明对应的模型变体。

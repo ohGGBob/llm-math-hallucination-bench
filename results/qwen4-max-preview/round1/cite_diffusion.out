@@ -1,0 +1,38 @@
+以下 5 篇均出自我自身记忆，未使用任何工具核对；记不清的字段标注为“不确定”。
+
+**1. Denoising Diffusion Probabilistic Models**
+- 作者：Jonathan Ho, Ajay Jain, Pieter Abbeel
+- Venue：Advances in Neural Information Processing Systems (NeurIPS)，2020
+- arXiv：2006.11239；DOI：不确定
+- 贡献：把扩散过程参数化为逐步去噪的马尔可夫链，并用简化的加权变分下界（等价于噪声预测的 MSE 目标）训练，首次让扩散模型在图像生成质量上达到当时领先水平。
+- 自信度：98
+
+**2. Denoising Diffusion Implicit Models**
+- 作者：Jiaming Song, Chenlin Meng, Stefano Ermon
+- Venue：International Conference on Learning Representations (ICLR)，2021
+- arXiv：2010.02502；DOI：不确定
+- 贡献：提出非马尔可夫的确定性/半确定性采样族 DDIM，可复用 DDPM 训练权重并把采样步数从上千降到几十步而质量损失很小。
+- 自信度：96
+
+**3. Score-Based Generative Modeling through Stochastic Differential Equations**
+- 作者：Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole
+- Venue：International Conference on Learning Representations (ICLR)，2021（Outstanding Paper Award）
+- arXiv：2011.13456；DOI：不确定
+- 贡献：用前向/反向 SDE 统一 score matching 与扩散模型，给出 probability-flow ODE 与 predictor–corrector 采样器，实现精确似然计算与高质量无条件生成。
+- 自信度：94
+
+**4. High-Resolution Image Synthesis with Latent Diffusion Models**
+- 作者：Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Björn Ommer
+- Venue：IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)，2022
+- arXiv：2112.10752；DOI：不确定
+- 贡献：先用自编码器把图像压到感知等价的低维潜空间再做扩散，并通过 cross-attention 引入文本等条件，大幅降低算力需求（即 Stable Diffusion 的基础）。
+- 自信度：97
+
+**5. Elucidating the Design Space of Diffusion-Based Generative Models**
+- 作者：Tero Karras, Miika Aittala, Timo Aila, Samuli Laine
+- Venue：Advances in Neural Information Processing Systems (NeurIPS)，2022
+- arXiv：2206.00364；DOI：不确定
+- 贡献：把采样、训练与噪声调度解耦为模块化设计空间，提出改进的预条件化、噪声分布与 Heun 二阶采样器（EDM），在极少函数评估次数下刷新当时的 FID 记录。
+- 自信度：92
+
+说明：以上标题、作者顺序与 arXiv 编号是我记忆中较为确定的部分；各篇的期刊/会议 DOI 我均记不清，故未填写。若需要更低的“幻觉风险”，可只保留第 1、2、4 篇（自信度 ≥ 96）。

@@ -1,0 +1,43 @@
+以下 5 篇均为我记忆中有较高把握的真实 GNN 文献（未使用任何工具）。DOI 我一律标为“不确定”，因为我无法可靠回忆具体 DOI 字符串；arXiv id 仅在我有把握时给出。
+
+**1. Semi-Supervised Classification with Graph Convolutional Networks (GCN)**
+- 作者：Thomas N. Kipf, Max Welling
+- Venue：International Conference on Learning Representations (ICLR)
+- 年份：2017
+- arXiv：1609.02907；DOI：不确定
+- 贡献：用谱图卷积的一阶局部近似得到逐层线性传播规则，实现可扩展的半监督节点分类。
+- 自信度：98
+
+**2. Graph Attention Networks (GAT)**
+- 作者：Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, Yoshua Bengio
+- Venue：International Conference on Learning Representations (ICLR)
+- 年份：2018
+- arXiv：1710.10903；DOI：不确定
+- 贡献：以（多头）掩码自注意力为邻居分配可学习权重，无需预先知道图结构即可做归纳式节点表示学习。
+- 自信度：95（作者顺序与拼写我有把握，但个别名字的重音/拼写可能有细节误差）
+
+**3. Inductive Representation Learning on Large Graphs (GraphSAGE)**
+- 作者：William L. Hamilton, Rex Ying, Jure Leskovec
+- Venue：Advances in Neural Information Processing Systems (NeurIPS / 当年称 NIPS)
+- 年份：2017
+- arXiv：1706.02216；DOI：不确定
+- 贡献：提出采样邻居并聚合的可学习聚合函数框架，使模型能泛化到训练时未见的节点/图。
+- 自信度：95
+
+**4. How Powerful are Graph Neural Networks? (GIN)**
+- 作者：Keyulu Xu, Weihua Hu, Jure Leskovec, Stefanie Jegelka
+- Venue：International Conference on Learning Representations (ICLR)
+- 年份：2019
+- arXiv：1810.00826；DOI：不确定
+- 贡献：用 Weisfeiler–Lehman 图同构测试刻画消息传递 GNN 的判别上界，并设计达到该上界的 Graph Isomorphism Network。
+- 自信度：95
+
+**5. Neural Message Passing for Quantum Chemistry (MPNN)**
+- 作者：Justin Gilmer, Samuel S. Schoenholz, Patrick F. Riley, Oriol Vinyals, George E. Dahl
+- Venue：International Conference on Machine Learning (ICML)，PMLR 卷 70（卷号细节不确定）
+- 年份：2017
+- arXiv：1704.01212；DOI：不确定
+- 贡献：把多种图上的监督学习方法统一为“消息传递 + 读出”框架，并在 QM9 分子性质预测上取得当时领先结果。
+- 自信度：92（作者列表与标题有把握，PMLR 卷号/页码不确定）
+
+说明：以上 5 篇我都能确定其存在与核心书目信息；不确定之处已逐条标注，未对 DOI、页码等做猜测性填充。

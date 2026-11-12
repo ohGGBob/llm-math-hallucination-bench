@@ -1,0 +1,9 @@
+name=obscure_facts
+start=2026-11-11 18:10:18 CST
+end=2026-11-11 18:11:25 CST
+start_epoch=1794391818.938932958
+end_epoch=1794391885.859485313
+exit=0
+latency_sec=66.921
+out_bytes=4415
+err_bytes=359

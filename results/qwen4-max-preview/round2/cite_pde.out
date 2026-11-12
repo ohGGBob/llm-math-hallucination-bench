@@ -1,0 +1,38 @@
+以下完全凭记忆作答，未使用任何工具（无检索、无读写文件、无命令执行）。我只列出自己有实质把握的真实论文；记不准的字段一律标“不确定”，不编造看起来像的 arXiv id / DOI。2025–2026 年的工作我无法凭记忆给出可靠书目信息，因此最新的一条止于 2024 年，并补入两篇确证相关的早期奠基工作。
+
+**1. Neural Operator: Learning Maps Between Function Spaces**
+- 作者：Nikola Kovachki, Zongyi Li, Burigede Liu, Kamyar Azizzadenesheli, Kaushik Bhattacharya, Andrew Stuart, Anima Anandkumar
+- Venue：Journal of Machine Learning Research (JMLR)，2023（卷 24，文章号 89；页码范围不确定）
+- arXiv：2108.08481（预印本 2021）；DOI：不确定
+- 贡献：把神经算子形式化为 Banach 空间之间的映射学习框架，给出通用逼近性质与核积分/图/傅里叶实现的统一理论分析。
+- 自信度：85
+
+**2. Geometry-Informed Neural Operator for Large-Scale 3D PDEs（GINO）**
+- 作者：Zongyi Li, Nikola Kovachki, Chris Choy, Boyi Li, Jean Kossaifi, Shourya Otta, Mohammad Amin Nabian, Maximilian Stadler, Christian Hundt, Kamyar Azizzadenesheli, Anima Anandkumar（作者顺序可能有细微出入）
+- Venue：Advances in Neural Information Processing Systems (NeurIPS)，2023
+- arXiv：2309.00583（中等把握，建议核对）；DOI：不确定
+- 贡献：以符号距离场与点云/网格编码几何信息，构建离散化无关的神经算子，用于大规模不规则几何上的 3D PDE（如汽车外流空气动力学）代理求解。
+- 自信度：72
+
+**3. Poseidon: Efficient Foundation Models for PDEs**
+- 作者：Maximilian Herde, Bogdan Raonić, Tobias Rohner, Roger Käppeli, Roberto Molinaro, Emmanuel de Bézenac, Siddhartha Mishra
+- Venue：Advances in Neural Information Processing Systems (NeurIPS)，2024
+- arXiv：不确定（记忆中形如 2405.xxxxx，但不足以确证，故不填）；DOI：不确定
+- 贡献：基于多尺度算子 Transformer 的 PDE 基础模型，通过大规模预训练与时间条件化/半群一致性设计，用少量下游样本迁移到未见过的 PDE 族。
+- 自信度：68（标题、作者群、年份与 NeurIPS 归属把握较高；标识符不确定）
+
+**4. Fourier Neural Operator for Parametric Partial Differential Equations**
+- 作者：Zongyi Li, Nikola Kovachki, Kamyar Azizzadenesheli, Burigede Liu, Kaushik Bhattacharya, Andrew Stuart, Anima Anandkumar
+- Venue：International Conference on Learning Representations (ICLR)，2021
+- arXiv：2010.08895；DOI：不确定
+- 贡献：在傅里叶域参数化核积分算子，得到分辨率无关、可零样本超分辨的 PDE 解算子学习器（FNO），在 Burgers/Darcy/Navier–Stokes 上大幅超越当时基线。
+- 自信度：95
+
+**5. Learning nonlinear operators via DeepONet based on the universal approximation theorem of operators**
+- 作者：Lu Lu, Pengzhan Jin, Guofei Pang, Zhongqiang Zhang, George Em Karniadakis
+- Venue：Nature Machine Intelligence，2021（卷 3，页 218–229）
+- arXiv：1910.03193；DOI：10.1038/s42256-021-00302-5（较有把握，仍建议核对）
+- 贡献：提出 branch–trunk 双网络的 DeepONet 结构，依据算子通用逼近定理学习非线性算子，并给出逼近误差与泛化分析。
+- 自信度：88
+
+补充说明：若需要 PINN 方向的奠基文献，我同样有高把握的一条是 Raissi, Perdikaris, Karniadakis, “Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations”, Journal of Computational Physics 378: 686–707, 2019, DOI 10.1016/j.jcp.2018.10.045（自信度 95）；此处未计入上表，以遵守“恰好 5 篇”的要求。上表中标为“不确定”的字段请勿直接引用，需自行核验。

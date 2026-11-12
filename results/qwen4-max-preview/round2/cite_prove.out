@@ -1,0 +1,45 @@
+以下是我凭记忆能确认为真实文献的 5 篇（未使用任何工具，未做检索核对；标识符与作者次序若记忆不牢我会标注"不确定"）。
+
+---
+
+**1. Solving olympiad geometry without human demonstrations（AlphaGeometry）**
+- 作者：Trieu H. Trinh, Yuhuai Wu, Quoc V. Le, He He, Thang Luong
+- Venue：*Nature*（vol. 625, pp. 476–482），2024 年（2024-01-17 在线发表）
+- DOI：10.1038/s41586-023-06747-5（记忆较有把握，但不敢保证逐位正确）；arXiv id：不确定（我印象中主发表渠道是 Nature）
+- 贡献：用符号演绎引擎 + 语言模型辅助构造辅助点，并在大规模合成几何证明数据上训练，无需人类证明示范即达到 IMO 几何题接近金牌选手的水平。
+- 自信度：**88**（标题/作者/venue/年份很有把握，DOI 单独约 80）
+
+**2. LeanDojo: Theorem Proving with Retrieval-Augmented Language Models（ReProver）**
+- 作者：Kaiyu Yang, Aidan M. Swope, Alex Gu, Rahul Chalamala, Peiyang Song, Shixing Yu, Saad Godil, Ryan Prenger, Anima Anandkumar
+- Venue：NeurIPS 2023（Datasets and Benchmarks Track），2023
+- arXiv：2306.15626
+- 贡献：提供可交互的 Lean 证明环境、细粒度前提（premise）标注与大规模抽取数据集，并训练检索增强的 tactic 生成 prover（ReProver）。
+- 自信度：**88**（作者中间几位的顺序可能有微小偏差）
+
+**3. Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs（DSP）**
+- 作者：Albert Q. Jiang, Sean Welleck, Jin Peng Zhou, Wenda Li, Jiacheng Liu, Mateja Jamnik, Timothée Lacroix, Yuhuai Wu, Guillaume Lample
+- Venue：ICLR 2023（International Conference on Learning Representations）
+- arXiv：2210.12283
+- 贡献：先由大模型生成非形式化草稿证明，再映射为形式化 proof sketch（留空子目标），交由自动 prover（如 Sledgehammer）填补，显著提升 Isabelle/Lean 上的证明率。
+- 自信度：**85**
+
+**4. LEGO-Prover: Neural Theorem Proving with Growing Libraries**
+- 作者：Haiming Wang, Huajian Xin, Chuanyang Zheng, Zhengying Liu, Qingxing Cao, Yinya Huang, Jing Xiong, Han Shi, Enze Xie, Jian Yin, Zhenguo Li, Xiaodan Liang（中间若干位的顺序：不确定）
+- Venue：ICLR 2024，2024
+- arXiv：2310.00656（记忆把握中等，约 65；若与实际不符请以标题为准）
+- 贡献：在证明过程中让 LLM 不断抽取/生成可复用的模块化引理"技能库"，用不断增长的库来组合式地证明新定理（Isabelle 上 miniF2F 等基准提升）。
+- 自信度：**78**（标题、venue、年份把握高；作者列表与 arXiv id 较弱）
+
+**5. DeepSeek-Prover-V1.5: Harnessing Proof Assistant Feedback for Reinforcement Learning and Monte-Carlo Tree Search**
+- 作者：Huajian Xin, Z. Z. Ren, Junxiao Song, Zhihong Shao, Wanjia Zhao, Haocheng Wang, Bo Liu, Liyue Zhang, Xuan Lu, Qiushi Du, Wenjun Gao, Qihao Zhu, Dejian Yang, Zhibin Gou, Z. F. Wu, Fuli Luo, Chong Ruan（团队署名很长，中段作者与顺序：不确定）
+- Venue：预印本 2024（arXiv，2024 年 8 月）；我记忆中后收录于 ICLR 2025（此 venue 归属：中等把握）
+- arXiv：2408.08152
+- 贡献：以 Lean 证明器反馈做 RL（RLPAF），并把截断-恢复机制与 MCTS 结合用于整证明生成，在 miniF2F/ProofNet 上刷新当时的 SOTA。
+- 自信度：**76**（标题与 arXiv id 较有把握，完整作者列表与正式 venue 较弱）
+
+---
+
+补充说明（不计入上面 5 篇）：
+- AlphaProof 相关的 DeepMind 正式论文（我记忆中题名近似 "Olympiad-level formal mathematical reasoning with reinforcement learning"，*Nature*，2025），以及 AlphaGeometry2（2025 预印本）我确实有印象，但**作者列表、卷期与 DOI/arXiv id 记不牢**，按规则不作为可确信条目列出。
+- 自动形式化方向我另有把握的一篇更早工作是 Wu, Jiang, Li, Rabe, Staats, Jamnik, Szegedy, "Autoformalization with Large Language Models", NeurIPS 2022, arXiv:2205.12615（自信度约 85）；因你要求恰好 5 篇且优先 2023–2026，我把它放在此处备注而非替换上面条目。
+- 所有 arXiv id / DOI 均为闭卷回忆，未联网核对；建议以标题+作者检索确认标识符。

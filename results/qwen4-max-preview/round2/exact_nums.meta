@@ -1,0 +1,9 @@
+name=exact_nums
+start=2026-11-11 19:18:50 CST
+end=2026-11-11 19:21:20 CST
+start_epoch=1794395930.850652425
+end_epoch=1794396080.253023754
+exit=0
+latency_sec=149.402
+out_bytes=4326
+err_bytes=359

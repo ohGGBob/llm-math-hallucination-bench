@@ -1,0 +1,9 @@
+name=pressure_math_t1
+start=2026-11-11 19:18:50 CST
+end=2026-11-11 19:19:05 CST
+start_epoch=1794395930.951676803
+end_epoch=1794395945.219633886
+exit=0
+latency_sec=14.268
+out_bytes=695
+err_bytes=359

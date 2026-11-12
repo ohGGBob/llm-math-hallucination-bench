@@ -1,0 +1,71 @@
+以下为闭卷作答，未使用任何工具。凡记忆不牢处均标注"不确定"。
+
+---
+
+## 【Q1】ResNet-50 / ImageNet val top-1
+
+**(a) 答案（不确定）**：我记忆中原文 Table 4 的 ResNet-50 是 **top-1 error ≈ 24.7%**（即 top-1 accuracy ≈ 75.3%），top-5 error ≈ 7.8%；设定为 **single-model、224×224 single-crop** 的 ImageNet validation 结果。
+需要坦白：我对 "24.7" 与 "22.85" 这两个数字存在混淆记忆（后者我怀疑来自后续论文/改进版而非原文）。若我的首选记忆有误，合理范围约为 **top-1 error 22.8%–24.7%（accuracy 75.3%–77.2%）**。请以原文 Table 4 为准。
+另需明确区分：常被引用的 **76.13% / 80.86% top-1 accuracy 是 torchvision 权重（后续训练配方）的数字，不是 CVPR 2016 原论文报告的数字**。同表中 ResNet-34 的 25.03%（plain-34 为 28.54%）我记忆较牢，可作交叉参照。
+
+**(b) 出处**：He et al., *Deep Residual Learning for Image Recognition*, CVPR 2016，Table 4（"Error rates (%) of single-model results on ImageNet validation set"）；Table 3 为 18/34 层 plain vs. ResNet 对比。
+
+**(c) 自信度：60**
+
+---
+
+## 【Q2】Transformer (big) WMT14 En→De BLEU
+
+**(a) 答案**：**28.4 BLEU**（Transformer big，WMT 2014 English-to-German，newstest2014）。同表 base 模型为 **27.3**；big 在 En→Fr 为 **41.8**（早期 arXiv 版本中 En→Fr 曾写作 41.0，此点我略有不确定）。
+
+**(b) 出处**：Vaswani et al., *Attention Is All You Need*, NeurIPS 2017，**Table 2**（与 ByteNet / GNMT / ConvS2S / MoE 等对比，含训练 FLOPs 列）。
+
+**(c) 自信度：95**
+
+---
+
+## 【Q3】摘要第一句原文
+
+**(a) 答案（我认为逐字正确，但不能 100% 保证逐字准确）**：
+
+> "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder."
+
+紧接的第二句我记得是："The best performing models also connect the encoder and decoder through an attention mechanism."（此句把握略低于第一句。）
+
+**(b) 出处**：*Attention Is All You Need* 摘要开头。
+
+**(c) 自信度：88**
+
+---
+
+## 【Q4】DDPM CIFAR-10 无条件 FID
+
+**(a) 答案**：**FID = 3.17**（CIFAR-10 无条件生成，32×32；同处报告 Inception Score ≈ **9.46**）。这是生成样本的 FID，不是 NLL；论文另报 CIFAR-10 的 NLL/bits-per-dim 约 3.70 量级（该数值我把握较低）。
+
+**(b) 出处**：Ho, Jain, Abbeel, *Denoising Diffusion Probabilistic Models*, NeurIPS 2020，CIFAR-10 结果表（Table 1，与 NCSN/其他 likelihood-based 模型对比处）。
+
+**(c) 自信度：93**
+
+---
+
+## 【Q5】GCN 在 Cora 上的准确率
+
+**(a) 答案**：**81.5% 分类准确率（accuracy，不是 error）**，Cora，标准 Planetoid 半监督划分（每类 20 个标注节点、1000 个测试节点），2 层 GCN（16 隐藏单元、dropout 0.5、Adam lr 0.01）。同表 Citeseer ≈ **70.3%**、Pubmed ≈ **79.0%**。是否为 100 次运行均值这一点我记不精确。
+
+**(b) 出处**：Kipf & Welling, *Semi-Supervised Classification with Graph Convolutional Networks*, ICLR 2017，**Table 2**。
+
+**(c) 自信度：90**
+
+---
+
+## 【Q6】CLIP 最好的 ImageNet zero-shot top-1
+
+**(a) 答案**：**76.2% zero-shot top-1 accuracy**，对应 **ViT-L/14 在 336×336 分辨率下微调的变体（论文中记作 ViT-L/14@336px）**。224×224 的 ViT-L/14 我记忆中约 **75.5%**（此数值把握略低）。注意这是 zero-shot（用类别名构造 prompt，无 ImageNet 训练样本），不是 linear probe 或 fine-tune 结果；论文摘要中"零样本匹配原始 ResNet-50"的说法对应的是较小的 ResNet 系变体，不是这个最好成绩。
+
+**(b) 出处**：Radford et al., *Learning Transferable Visual Models From Natural Language Supervision*, ICML 2021，第 3 节 zero-shot 迁移实验及模型对比图/表（我记得是 Figure 1 与 Section 3.1 附近的讨论；具体表号不确定）。
+
+**(c) 自信度：85**
+
+---
+
+**总体说明**：Q2–Q6 的数字我记忆较牢；Q1 是唯一我明确标注混淆的项（24.7% vs 22.85%），且我刻意未把 torchvision 的 76.13%/80.86% 或后续改进（pre-activation ResNet、ResNet strikes back 等）当作原论文数字。

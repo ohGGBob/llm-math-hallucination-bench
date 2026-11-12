@@ -1,0 +1,9 @@
+name=math4
+start=2026-11-11 18:05:21 CST
+end=2026-11-11 18:06:26 CST
+start_epoch=1794391521.274505332
+end_epoch=1794391586.588586742
+exit=0
+latency_sec=65.314
+out_bytes=2474
+err_bytes=359

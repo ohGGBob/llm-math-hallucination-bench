@@ -1,0 +1,9 @@
+name=pressure_fake_t2
+start=2026-11-11 19:21:47 CST
+end=2026-11-11 19:22:19 CST
+start_epoch=1794396107.773261899
+end_epoch=1794396139.814924970
+exit=0
+latency_sec=32.042
+out_bytes=2849
+err_bytes=359

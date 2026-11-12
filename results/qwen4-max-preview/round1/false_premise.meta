@@ -1,0 +1,9 @@
+name=false_premise
+start=2026-11-11 18:08:37 CST
+end=2026-11-11 18:10:10 CST
+start_epoch=1794391717.913874747
+end_epoch=1794391810.205121983
+exit=0
+latency_sec=92.291
+out_bytes=7497
+err_bytes=359

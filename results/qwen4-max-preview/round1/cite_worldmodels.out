@@ -1,0 +1,50 @@
+以下全部凭记忆作答，未使用任何工具（无检索、无读写文件、无命令）。凡记不清的字段一律写“不确定”，不猜测形似的 id。我能确定 5 篇。
+
+---
+
+**1. World Models**
+- 作者：David Ha, Jürgen Schmidhuber
+- 标题：*World Models*
+- Venue / 年份：arXiv 预印本 2018；同年会议版本标题为 *Recurrent World Models Facilitate Policy Evolution*，NeurIPS 2018（另有 Distill 2018 的交互版文章）
+- arXiv id：1803.10122；DOI：不确定
+- 贡献：用 VAE 压缩视觉观测 + MDN-RNN 预测潜变量动力学 + 极小控制器，使策略可以完全在“梦境”（学到的世界模型）中训练再迁移回真实环境。
+- 自信度：**85**（作者/标题/年份很确定；arXiv id 较确定；NeurIPS 版本标题与 Distill DOI 的对应关系把握较低）
+
+**2. PlaNet（Learning Latent Dynamics for Planning from Pixels）**
+- 作者：Danijar Hafner, Timothy Lillicrap, Ian Fischer, Ruben Villegas, David Ha, Honglak Lee, James Davidson
+- 标题：*Learning Latent Dynamics for Planning from Pixels*
+- Venue / 年份：ICML 2019（International Conference on Machine Learning）
+- arXiv id：1811.04551；DOI：不确定
+- 贡献：提出 RSSM（随机+确定性混合的循环状态空间模型），在紧凑潜空间中做在线 CEM/MPC 规划，直接从像素解决连续控制任务而无需策略网络。
+- 自信度：**80**（标题、venue、核心作者确定；完整作者顺序与 arXiv id 中等把握）
+
+**3. Dreamer（Dream to Control）**
+- 作者：Danijar Hafner, Timothy Lillicrap, Jimmy Ba, Mohammad Norouzi
+- 标题：*Dream to Control: Learning Behaviors by Latent Imagination*
+- Venue / 年份：ICLR 2020
+- arXiv id：1912.01603；DOI：不确定
+- 贡献：在世界模型的潜空间“想象”轨迹上，通过可微的价值/动作梯度反向传播学习 actor-critic，把世界模型从规划器升级为策略学习器。
+- 自信度：**88**（这一条我把握最高；arXiv id 与四位作者顺序均较确定）
+
+**4. I-JEPA**
+- 作者：Mahmoud Assran, Quentin Duval, Ishan Misra, Piotr Bojanowski, Pascal Vincent, Michael Rabbat, Yann LeCun, Nicolas Ballas
+- 标题：*Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture*
+- Venue / 年份：CVPR 2023（IEEE/CVF Conference on Computer Vision and Pattern Recognition）
+- arXiv id：2301.08243；DOI：不确定
+- 贡献：不依赖手工数据增强，在表征空间中预测被遮挡 target block 的嵌入，给出 LeCun JEPA 式“预测性世界模型”路线的首个大规模视觉实证。
+- 自信度：**78**（标题、venue、年份确定；作者集合确定但顺序把握中等；arXiv id 中等把握。注：这是图像域工作，非机器人控制，属 JEPA 谱系的基础文献）
+
+**5. TD-MPC2**
+- 作者：Nicklas Hansen, Hao Su, Xiaolong Wang
+- 标题：*TD-MPC2: Scalable, Robust World Models for Continuous Control*
+- Venue / 年份：ICLR 2024
+- arXiv id：2310.16828；DOI：不确定
+- 贡献：无解码器的潜空间世界模型 + TD 价值学习 + 采样式 MPC，单一超参数配置下的一个 agent 跨 100 余个连续控制任务学习，并展示模型规模可扩展性。
+- 自信度：**76**（作者三人、标题、ICLR 2024 较确定；arXiv id 中等把握；任务数/参数量的具体数字我不逐一断言）
+
+---
+
+说明与风险提示：
+- 我未逐字核对任何一条，**最易出错的字段是 arXiv id 与作者顺序**；标题、作者身份、venue/年份的可靠性明显高于 id。若需要引用，请以标题+作者在 arXiv/DBLP 上核验 id 与 DOI。
+- 所有 DOI 我都记不准，故统一标“不确定”，未编造。
+- 其他我确实记得但没列入的相关工作（如 DreamerV2/V3、DayDreamer、V-JEPA、IRIS、Genie）本次未列，以遵守“恰好 5 篇”的要求。

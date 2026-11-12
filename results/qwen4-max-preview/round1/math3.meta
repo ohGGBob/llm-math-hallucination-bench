@@ -1,0 +1,9 @@
+name=math3
+start=2026-11-11 18:05:21 CST
+end=2026-11-11 18:06:13 CST
+start_epoch=1794391521.014864750
+end_epoch=1794391573.472704182
+exit=0
+latency_sec=52.458
+out_bytes=3404
+err_bytes=359

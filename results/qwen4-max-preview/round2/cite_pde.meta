@@ -1,0 +1,9 @@
+name=cite_pde
+start=2026-11-11 19:16:59 CST
+end=2026-11-11 19:18:33 CST
+start_epoch=1794395819.584636830
+end_epoch=1794395913.049686780
+exit=0
+latency_sec=93.465
+out_bytes=3880
+err_bytes=359

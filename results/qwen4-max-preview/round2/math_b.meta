@@ -1,0 +1,9 @@
+name=math_b
+start=2026-11-11 19:14:56 CST
+end=2026-11-11 19:16:03 CST
+start_epoch=1794395696.392153475
+end_epoch=1794395763.630568009
+exit=0
+latency_sec=67.238
+out_bytes=4178
+err_bytes=359

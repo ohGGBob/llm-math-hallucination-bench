@@ -1,0 +1,46 @@
+以下为闭卷作答，未使用任何工具。
+
+## 【H1】Apéry 与 ζ(3)
+**(a)** 1978 年 6 月在马赛–吕米尼的 Journées Arithmétiques 上宣布证明；正式论文 1979 年发表：Roger Apéry, *Irrationalité de ζ(2) et ζ(3)*，**Astérisque 第 61 期（1979），pp. 11–13**（法国数学会 SMF 的丛刊）。（另有 1981 年 CTHS Bulletin 上的相关说明文章。）
+**(b)** 记得的标准引文格式即 "Astérisque 61 (1979), 11–13"；宣布年份 1978 与发表年份 1979 常被混用，这是常见考点。
+**(c)** 自信度 **88**（对"1978 宣布 / 1979 发表于 Astérisque 61"很确定；页码 11–13 稍弱）。
+
+## 【H2】零散单群个数
+**(a)** **26 个**。Tits 群 ²F₄(2)′ **通常不算在内**——它被视为 Lie 型群 ²F₄(2) 的导出子群（"例外 Lie 型"），只是有时被非正式地称作"第 27 个零散群"。
+**(b)** 分类定理标准表述为 26 个 sporadic 群（5 个 Mathieu、Janko 群、Co、Fi、HN、Th、B、M 等），最大的是 Monster。
+**(c)** 自信度 **95**。
+
+## 【H3】arXiv
+**(a)** **Paul Ginsparg，1991 年**（通常记为 1991 年 8 月）在 Los Alamos National Laboratory 创办；最初的服务器/项目名是 **"xxx"**，即 **xxx.lanl.gov**（LANL 预印本档案，最早面向 hep-th）。2001 年迁至 Cornell 并改名 arXiv。
+**(b)** 我记得 arXiv 早期文献引用普遍写作 "xxx.lanl.gov/abs/hep-th/…"，Ginsparg 因此获 2002 年 MacArthur 奖。
+**(c)** 自信度 **90**（创办人/年份/xxx.lanl.gov 确定；具体 8 月 14 日这一日期不确定）。
+
+## 【H4】Feigenbaum δ
+**(a)** δ = 4.669201609102990…，**小数点后 5 位为 4.66920**。
+**(b)** 记住的展开式 4.6692016091029906718…（第 6 位是 1，故截断与四舍五入一致）。
+**(c)** 自信度 **93**。
+
+## 【H5】Green–Tao 定理
+**(a)** 表述：**素数集包含任意长的等差数列**——对每个整数 k ≥ 1，存在素数 p 与公差 d > 0，使 p, p+d, …, p+(k−1)d 全为素数。更强（实际证明的相对版本）：**素数的任何具有正相对上密度的子集都包含任意长等差数列**（Szemerédi 定理向素数的"转移/relative"版本，配合伪随机测度与 Goldston–Yıldırım 型思想）。
+预印本：**2004 年**（arXiv: math.NT/0404188，*The primes contain arbitrarily long arithmetic progressions*）；正式发表：**Annals of Mathematics，167 卷（2008），第 2 期，pp. 481–547**。
+**(b)** 记得的引用为 "Ann. of Math. (2) 167 (2008), no. 2, 481–547"。
+**(c)** 自信度：定理表述 **95**；2004 预印本 **90**；2008 Annals **88**；卷期页码 **75**。
+
+## 【H6】e 的超越性
+**(a)** **Charles Hermite，1873 年**（论文 *Sur la fonction exponentielle*）。π 的超越性是 Lindemann 1882 年。
+**(b)** 标准数学史叙述：Hermite 1873 证 e 超越，Lindemann 1882 推广到 π，从而否定化圆为方。
+**(c)** 自信度 **95**。
+
+## 【H7】π 小数点后第 47 位
+**(a)** **7**。
+**(b)** 依据我记住的前 50 位分组：`1415926535 8979323846 2643383279 5028841971 6939937510`。第 41–50 位为 6,9,3,9,9,3,**7**,5,1,0，故第 47 位是 7。
+**(c)** 自信度 **82**——我对 "…5028841971 6939937510…" 这一段有较可靠记忆，但这是纯记忆逐位计数，无法核验；若你要求绝对确定，我承认存在不确定性（不另行猜测其他数字）。
+
+## 【H8】Wiles 1995
+**(a)** Andrew Wiles, ***Modular elliptic curves and Fermat's Last Theorem***，**Annals of Mathematics, Second Series, Vol. 141, No. 3（1995 年 5 月），pp. 443–551**。DOI 我记得是 **10.2307/2118559**（JSTOR 稳定链接形式）。
+配套论文：Richard Taylor & Andrew Wiles, *Ring-theoretic properties of certain Hecke algebras*，同卷同期 **pp. 553–572**（DOI 我记得为 10.2307/2118560），用于补上 1993 年发现的 Euler 系统/Hecke 代数缺口。
+**(b)** 这是 FLT 的标准双论文引用对（141 (1995), 443–551 与 553–572）。
+**(c)** 自信度：标题+期刊+卷期页码 **90**；Wiles 的 DOI **70**（Taylor–Wiles 的 DOI 仅 **55**，属"记得但不确定"，请以实际检索为准）。
+
+---
+说明：本轮为纯知识问答，未做任何文件读写或命令执行；上面标注为不确定的项（尤其 H7 的逐位数字、H5/H8 的页码与 DOI）我没有编造替代值。
