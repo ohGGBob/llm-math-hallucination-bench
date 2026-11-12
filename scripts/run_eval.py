@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run llm-math-halluc-bench against an OpenAI-compatible chat endpoint.
+"""Run llm-math-hallucination-bench against an OpenAI-compatible chat endpoint.
 
 The official protocol uses the original *batch* prompt files under
 data/prompts/ (several items per call), not the per-item JSONL lines.

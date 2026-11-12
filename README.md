@@ -1,4 +1,4 @@
-# llm-math-halluc-bench
+# llm-math-hallucination-bench
 
 闭卷评测集：考查大语言模型的数学推导，以及文献、定理与精确数字上的幻觉（编造、假前提、追问改口）。
 

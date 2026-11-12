@@ -236,7 +236,7 @@ def pi_digit() -> None:
 
 
 def main() -> None:
-    print("llm-math-halluc-bench  —  numerical gold verifier")
+    print("llm-math-hallucination-bench  —  numerical gold verifier")
     round1()
     round2()
     pi_digit()
